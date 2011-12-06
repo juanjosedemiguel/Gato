@@ -10,10 +10,10 @@ TARGET = Gato
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    BallmerPeak.cpp
+SOURCES += src/main.cpp \
+    src/mainwindow.cpp \
+    src/BallmerPeak.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += src/mainwindow.h
 
-FORMS    += mainwindow.ui
+FORMS    += src/mainwindow.ui
