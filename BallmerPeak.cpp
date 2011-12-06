@@ -163,7 +163,7 @@ bool continuar()
     return (letra == 'q' || letra == 'Q');
 }
 
-int main()
+int main2()
 {
     bool acabo;
     bool jugador;
