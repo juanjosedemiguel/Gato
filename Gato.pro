@@ -12,8 +12,14 @@ TEMPLATE = app
 
 SOURCES += src/main.cpp \
     src/mainwindow.cpp \
-    src/BallmerPeak.cpp
+    src/BallmerPeak.cpp \
+    src/gato.cpp \
+    src/ai.cpp
 
-HEADERS  += src/mainwindow.h
+HEADERS  += src/mainwindow.h \
+    src/gato.h \
+    src/ai.h
 
 FORMS    += src/mainwindow.ui
+
+LIBS +=

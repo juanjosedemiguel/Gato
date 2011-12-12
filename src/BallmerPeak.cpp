@@ -69,7 +69,7 @@ void turnoJugador()
             x = 1;
         else if (num == 9 || num == 6 || num == 3)
             x = 2;
-        
+
     // Validar el tiro
     } while (!validar(y,x));
     
